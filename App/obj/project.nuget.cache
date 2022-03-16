@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "911nhzClgpj36+WskQUr653P8FazupOFLbEXijQI//vTMSYpFA9Ht5LAcERb0vxXAWHJBKcbryF/aK6W4PB3Nw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\trendyol-scraper-dotnet\\App\\App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\selenium.webdriver.chromedriver\\99.0.4844.5100\\selenium.webdriver.chromedriver.99.0.4844.5100.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "App depends on Selenium.WebDriver.ChromeDriver (>= 99.0.0) but Selenium.WebDriver.ChromeDriver 99.0.0 was not found. An approximate best match of Selenium.WebDriver.ChromeDriver 99.0.4844.5100 was resolved.",
+      "libraryId": "Selenium.WebDriver.ChromeDriver",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

@@ -43,7 +43,7 @@ using OpenQA.Selenium.Chrome;
             itemName = driver.FindElement(By.XPath($"/html/body/div[1]/div[3]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[4]/div/div[{i}]/div[1]/a/div[2]/div[1]/div/span[2]"));
         }
 
-        IWebElement itemCost = driver.FindElements(By.ClassName("prc-box-sllng"))[i-1];
+        IWebElement itemCost = driver.FindElements(By.ClassName("prc-box-dscntd"))[i-1];
 
         Console.WriteLine($"{i}. {itemName.GetAttribute("title")}, Price: {itemCost.Text}");
     }
